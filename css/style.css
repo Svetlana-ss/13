@@ -1,0 +1,354 @@
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../font/subset-ProximaNova-Regular.eot");
+  src: url("..font/subset-ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("..font/subset-ProximaNova-Regular.woff2") format("woff2"), url("..font/subset-ProximaNova-Regular.woff") format("woff"), url("../font/subset-ProximaNova-Regular.ttf") format("truetype"), url("../font/subset-ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Proxima Nova Rg";
+}
+
+.container {
+  max-width: 1532px;
+  margin: 0px auto;
+}
+
+.header {
+  background-color: #0a0e34;
+}
+
+.header {
+  background-image: url("../images/football.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 54px 15px 110px 15px;
+}
+
+.header-button, .header-buttons, .header-menu, .header-title__text-style, .header-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-display {
+  align-items: center;
+  margin-top: 53px;
+}
+
+.header-links__text, .header-title__text, .header-link__link {
+  color: #ffffff;
+}
+
+.header-links__text, .header-menu__text, .header-link__link {
+  font-size: 14px;
+}
+
+.header-menu__text, .header-link__link {
+  line-height: 34px;
+}
+
+.header-links__text, .header-menu__text, .header-title__text, .header-link__link {
+  text-transform: uppercase;
+}
+
+.header-links__text, .header-link__link {
+  font-weight: 300;
+}
+
+.header-link__link {
+  letter-spacing: 0.7px;
+}
+
+.header-title__text {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 4.96px;
+}
+
+.header-title {
+  position: relative;
+  z-index: 10;
+}
+
+.header-title__text-style {
+  justify-content: flex-end;
+  line-height: 100px;
+  letter-spacing: 4.5px;
+  padding-top: 33px;
+}
+
+.header-img__line {
+  position: absolute;
+  top: -116px;
+  left: 392px;
+  z-index: -1;
+}
+
+.header-block {
+  margin-top: 309px;
+  margin-bottom: 30px;
+}
+
+.header-menu__text {
+  color: #9071ea;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+}
+
+.header-menu__list {
+  margin-left: 49px;
+}
+.header-menu__list:first-child {
+  margin-left: 0px;
+}
+
+.header-menu {
+  justify-content: flex-end;
+}
+
+.header-buttons {
+  justify-content: center;
+  margin-top: 181px;
+  margin-bottom: 110px;
+}
+
+.header-button {
+  width: 311px;
+  box-shadow: 0 16px 24px #0a0e34;
+  background-color: #5e42b0;
+  border-radius: 60px;
+  margin-right: 50px;
+  align-items: center;
+}
+.header-button:last-child {
+  margin-right: 0px;
+}
+
+.header-links__text {
+  line-height: 34px;
+  letter-spacing: 0.7px;
+}
+
+.header-links__text-weight700 {
+  font-weight: 700;
+}
+
+.header-links__link {
+  text-decoration: none;
+  margin: 26px 0px 25px 0px;
+}
+
+.header-links {
+  max-width: 139px;
+  min-width: 100%;
+  margin-right: 67px;
+}
+
+.header-button__image {
+  width: 33px;
+  height: 37px;
+  margin: 19px 28px 21px 43px;
+}
+
+@media (max-width: 1531px) {
+  .header-display {
+    min-width: 727px;
+    width: 100%;
+  }
+
+  .header-title {
+    max-width: 592px;
+    text-align: start;
+    margin: 0px auto;
+  }
+
+  .header-title__text {
+    font-size: 64px;
+    letter-spacing: 3.52px;
+  }
+
+  .header-title__text-style {
+    margin-left: 108px;
+  }
+
+  .header-block {
+    margin: 194px 74px 184px;
+    min-width: 592px;
+  }
+
+  .header-img__line {
+    position: absolute;
+    top: -54px;
+    left: 170px;
+  }
+
+  .header-menu {
+    justify-content: space-around;
+  }
+
+  .header-buttons {
+    margin-top: 116px;
+    margin-bottom: 0px;
+  }
+
+  .header-button {
+    width: 311px;
+  }
+
+  .header {
+    padding-bottom: 91px;
+  }
+
+  .header-links {
+    /*
+    width: 100%;*/
+    max-width: 139px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    min-width: 320px;
+  }
+
+  .header-link {
+    display: none;
+  }
+
+  .header-logo {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .header-display {
+    max-width: 297px;
+  }
+
+  .header-button {
+    width: 142px;
+    margin-right: 8px;
+  }
+
+  .header-button__image {
+    width: 15px;
+    height: 17px;
+    margin: 11px 9px 11px 20px;
+  }
+
+  .header-links__text {
+    width: 80px;
+    font-size: 8px;
+    letter-spacing: 0.4px;
+  }
+
+  .header-img__line {
+    top: 0px;
+    left: 0px;
+  }
+
+  .header-block {
+    margin: 141px 13px 118px 10px;
+  }
+
+  .header-title {
+    max-width: 297px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .header-title__text {
+    max-width: 238px;
+    font-size: 32px;
+    line-height: 31.32px;
+    letter-spacing: 1.76px;
+    margin-right: 0px;
+  }
+
+  .header-title__text-style {
+    width: 242px;
+    letter-spacing: 1.6px;
+    padding-top: 28px;
+    margin-left: 42px;
+    margin-right: 0px;
+  }
+
+  .header-menu {
+    flex-wrap: wrap;
+  }
+
+  .header-menu__text {
+    font-size: 12px;
+  }
+
+  .header-links {
+    width: 100%;
+    max-width: 80px;
+    margin-right: 0px;
+  }
+
+  .header-menu__list {
+    margin: 0 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
